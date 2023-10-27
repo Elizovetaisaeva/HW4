@@ -94,10 +94,22 @@ public class Main {
         System.out.println("Мороженое-пломбир = "+Ice+ " грамм ");
         int eggs= 4*70;
         System.out.println("Яйца сырые = "+eggs+ " грамм");
+        int gram= (400+21000)+(200+280);
+        System.out.println("количество граммов = "+gram+ " грамм");
+       double kg= (double) 21880/1000;
+        System.out.println("такого спортзавтрака = "+kg+ " килограмм");
+
 
     }
 
     public static void task7() {
+        byte weight = 1000/250;
+        System.out.println(weight + " грамма ");
+        byte days = 4*7;
+        System.out.println(days + " дней ");
+        byte weight = 1000/500;
+        System.out.println(weight + " грамма ");
+
 
     }
 
