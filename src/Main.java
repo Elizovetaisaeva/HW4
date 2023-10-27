@@ -5,6 +5,9 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
+        task7();
+        task8();
     }
 
 
@@ -51,6 +54,20 @@ public class Main {
     }
 
     public static void task4() {
+        byte bottles = 16/2;
+        System.out.println("За 2 минуты машина произвела "  +  bottles + " штук бутылок ");
+        int min = 8*20;
+        System.out.println("бутылок за 20 минут  = " + min);
+        int time = 8*60;
+        System.out.println("бутылок за  час  = " + time);
+        int day= 480*24;
+        System.out.println("бутылок за сутки  = " + day);
+       long threeDays= 11520*3;
+        System.out.println("бутылок за 3 дня  = " + threeDays);
+        long oneMonth= 34560*30;
+        System.out.println("бутылок за месяц  = " + oneMonth);
+
+
 
 
     }
@@ -66,5 +83,18 @@ public class Main {
         System.out.println("банки белой краски = " + white);
         byte Brown = 20*4;
         System.out.println("банки коричневой краски = " + Brown);
+    }
+
+    public static void task6() {
+
+    }
+
+    public static void task7() {
+
+    }
+
+    public static void task8() {
+
+
     }
 }
