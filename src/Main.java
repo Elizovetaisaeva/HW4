@@ -13,33 +13,33 @@ public class Main {
 
     public static void task1() {
         byte grape = 21;
-        System.out.println("byte grape = "+"21");
+        System.out.println("byte grape = " + grape);
         short apples = 231;
-        System.out.println("short apples = "+"231");
+        System.out.println("short apples = "+ apples);
         int a = 30000;
-        System.out.println("int a = "+"30000");
+        System.out.println("int a = "+a);
         long b = 976789654;
-        System.out.println("long b = "+"976789654");
+        System.out.println("long b = "+b);
         float c = 4.55f;
-        System.out.println("float c = "+"4.55f");
+        System.out.println("float c = "+c);
         double d = 10.896F;
-        System.out.println("double d = "+"10.896F");
+        System.out.println("double d = "+d);
 
 
     }
     public static void task2() {
         byte a = (byte)-159;
-        System.out.println("byte a = "+"-159");
+        System.out.println("byte a = "+a);
         short b = 569;
-        System.out.println("short b = "+"569");
+        System.out.println("short b = "+b);
         int c = 27897;
-        System.out.println("int c = "+ "27897");
+        System.out.println("int c = "+ c);
         long d = 987-678-965-549;
-        System.out.println("long d = "+"987678965549");
+        System.out.println("long d = "+d);
         float e = 2.786f;
-        System.out.println("float e = "+"2.786f");
+        System.out.println("float e = "+e);
         double g = 27.12F;
-        System.out.println("double g = "+"27.12F");
+        System.out.println("double g = "+g);
 
     }
 
@@ -74,7 +74,7 @@ public class Main {
 
     public static void task5() {
         byte cansPaint = 120;
-        System.out.println("cansPaint  = "+"120");
+        System.out.println("cansPaint  = "+cansPaint);
         short whiteBrown = 2+4;
         System.out.println("На один класс уходит = " + whiteBrown);
         byte cans = 120/6;
