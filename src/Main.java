@@ -107,13 +107,19 @@ public class Main {
         System.out.println(weight + " грамма ");
         byte days = 4*7;
         System.out.println(days + " дней ");
-        byte weight = 1000/500;
-        System.out.println(weight + " грамма ");
+        byte weigh = 1000/500;
+        System.out.println(weigh + " грамма ");
+        byte day = 7*2;
+        System.out.println(day + " дней ");
+        byte d = 14+7;
+        System.out.println( "в среднем потребоваться " + d + "  дней  ");
+
 
 
     }
 
     public static void task8() {
+
 
 
     }
