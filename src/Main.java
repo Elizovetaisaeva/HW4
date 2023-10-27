@@ -119,6 +119,18 @@ public class Main {
     }
 
     public static void task8() {
+        int salary = 67760+6776;
+        System.out.println(salary + " рублей в месяц ");
+        int a = 74536*12;
+        System.out.println(a + " рублей в год ");
+        int b = 67760*12;
+        System.out.println(b + " рублей в год ");
+        long d = (894432 - 813120);
+        System.out.println("Годовой доход вырос на " + d + " рублей ");
+
+
+
+
 
 
 
