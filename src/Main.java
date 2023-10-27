@@ -86,6 +86,14 @@ public class Main {
     }
 
     public static void task6() {
+       int bananas = 5*80;
+        System.out.println("5 штук бананов = "+bananas+ " грамм ");
+        int milk = 200*105;
+        System.out.println("молоко = "+milk+ " грамм ");
+        int Ice= 2*100;
+        System.out.println("Мороженое-пломбир = "+Ice+ " грамм ");
+        int eggs= 4*70;
+        System.out.println("Яйца сырые = "+eggs+ " грамм");
 
     }
 
