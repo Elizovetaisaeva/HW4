@@ -1,3 +1,4 @@
+
 public class Main {
     public static void main(String[] args) {
         task1();
@@ -28,13 +29,13 @@ public class Main {
 
     }
     public static void task2() {
-        byte a = (byte)-159;
-        System.out.println("byte a = "+a);
+        short a = -159;
+        System.out.println("int a = "+a);
         short b = 569;
         System.out.println("short b = "+b);
         int c = 27897;
         System.out.println("int c = "+ c);
-        long d = 987678965549;
+        long d = 987_678_965_549L;
         System.out.println("long d = "+d);
         float e = 2.786f;
         System.out.println("float e = "+e);
@@ -45,27 +46,26 @@ public class Main {
 
 
     public static void task3() {
-        byte students = (27+23)+30;
-        System.out.println("Количество учеников  = " + students);
-        byte paper = 480/80;
-        System.out.println("На каждого ученика рассчитано  " + paper + " листов бумаги");
+        byte students1 = 23;
+        byte students2 = 27;
+        byte students3 = 30;
+        short paper = 480;
+        int overStudents = students1 + students2 + students3;
+        int expensed = paper / overStudents;
+        System.out.println("На каждого ученика рассчитано  " + expensed + " листов бумаги");
 
 
     }
 
     public static void task4() {
-        byte bottles = 16/2;
-        System.out.println("За 2 минуты машина произвела "  +  bottles + " штук бутылок ");
-        int min = 8*20;
-        System.out.println("бутылок за 20 минут  = " + min);
-        int time = 8*60;
-        System.out.println("бутылок за  час  = " + time);
-        int day= 480*24;
-        System.out.println("бутылок за сутки  = " + day);
-       long threeDays= 11520*3;
-        System.out.println("бутылок за 3 дня  = " + threeDays);
-        long oneMonth= 34560*30;
-        System.out.println("бутылок за месяц  = " + oneMonth);
+        byte speedCar = 16;
+        byte time1 = 20;
+        int time2 = 1448;
+        int time3 = 4320;
+        int time4 = 43200;
+        int speedMin = speedCar / 2;
+        int fin1 = time1 * speedMin;
+        System.out.println("За" +time1+time2+time3+time4+"машина произвела " + fin1+ "штук бутылок");
 
 
 
