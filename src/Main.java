@@ -34,7 +34,7 @@ public class Main {
         System.out.println("short b = "+b);
         int c = 27897;
         System.out.println("int c = "+ c);
-        long d = 987-678-965-549;
+        long d = 987678965549;
         System.out.println("long d = "+d);
         float e = 2.786f;
         System.out.println("float e = "+e);
