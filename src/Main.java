@@ -74,32 +74,25 @@ public class Main {
     }
 
     public static void task5() {
-        byte cansPaint = 120;
-        System.out.println("cansPaint  = "+cansPaint);
-        short whiteBrown = 2+4;
-        System.out.println("На один класс уходит = " + whiteBrown);
-        byte cans = 120/6;
-        System.out.println("количество = " + cans);
-        byte white = 20*2;
-        System.out.println("банки белой краски = " + white);
-        byte Brown = 20*4;
-        System.out.println("банки коричневой краски = " + Brown);
+        int white = 2;
+        int brown = 4;
+        int quantity = 120;
+        int quantityClasses = quantity / (white + brown);
+        int quantityWhite = white * quantityClasses;
+        int totalBrown = brown * quantityClasses;
+        System.out.println("В школе, где " + quantityClasses + " классов, нужно " + quantityWhite + " банок белой краски и " + totalBrown + " банок коричневой краски");
     }
+
+
 
     public static void task6() {
        int bananas = 5*80;
-        System.out.println("5 штук бананов = "+bananas+ " грамм ");
-        int milk = 200*105;
-        System.out.println("молоко = "+milk+ " грамм ");
+        int milk = 200/100*105;
         int Ice= 2*100;
-        System.out.println("Мороженое-пломбир = "+Ice+ " грамм ");
         int eggs= 4*70;
-        System.out.println("Яйца сырые = "+eggs+ " грамм");
-        int gram= (400+21000)+(200+280);
-        System.out.println("количество граммов = "+gram+ " грамм");
-       double kg= (double) 21880/1000;
-        System.out.println("такого спортзавтрака = "+kg+ " килограмм");
-
+        int gWeight= bananas+milk+Ice+eggs;
+        double kgWeight = (double) gWeight /1000;
+        System.out.println("такого спортзавтрака = "+kgWeight+ " килограмм");
 
     }
 
