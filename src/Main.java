@@ -58,14 +58,15 @@ public class Main {
     }
 
     public static void task4() {
-        byte speedCar = 16;
-        byte time1 = 20;
-        int time2 = 1448;
-        int time3 = 4320;
-        int time4 = 43200;
-        int speedMin = speedCar / 2;
-        int fin1 = time1 * speedMin;
-        System.out.println("За" +time1+time2+time3+time4+"машина произвела " + fin1+ "штук бутылок");
+        int min2 = 16;
+        int min20 = min2 * 10;
+        int day24 = min20 * 3 * 24;
+        int days3 = day24 * 3;
+        int month = day24 * 30;
+        System.out.println("За 20 минут машина произвела бутылок - " + min20 + " штук ");
+        System.out.println("За сутки машина произвела бутылок - " + day24 + " штук ");
+        System.out.println("За 3 дня машина произвела бутылок - " + days3 + " штук ");
+        System.out.println("За месяц машина произвела бутылок - " + month + " штук ");
 
 
 
